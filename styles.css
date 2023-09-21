@@ -161,8 +161,7 @@ h4 {
  }
 
  .modal-content .desc-right button {
-   margin-top: 1.6em;
-   bottom: 0;
+   margin-top: 0.6em;
    border-radius: 0;
    background-color: var(--orange);
    border: 1px solid var(--black);
