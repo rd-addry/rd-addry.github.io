@@ -604,12 +604,6 @@ button a {
 /* CONTACT */
 
 #contact {
- /*background-image: url('src/img/IMG_1879.jpg');
- background-position: center;
- background-repeat: no-repeat;
- background-size:cover;
- position: relative;
- z-index: -2;*/
  background-color: var(--black);
 }
 
