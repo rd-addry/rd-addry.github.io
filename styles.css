@@ -139,7 +139,7 @@ h4 {
 }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 468px) {
  
  #intro { height: 80vh;}
 
@@ -168,6 +168,10 @@ h4 {
    border: 1px solid var(--black);
  }
 
+}
+@media screen and (max-width: 414px) {
+ 
+  #intro { height: 80vh;}
 }
 
 /* MAIN */
