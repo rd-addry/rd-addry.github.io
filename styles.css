@@ -82,7 +82,7 @@ h4 {
 
 .topnav .icon {display: none;}
 
-@media screen and (max-width: 2016px) {
+@media screen and (max-width: 1980px) {
  .topnav a:not(:first-child) {display: none;}
  .topnav a.icon { display: none;}
 }
@@ -109,7 +109,7 @@ h4 {
  }
  ul { display: none;}
 
- #intro { height: 42vh;}
+ #intro { height: 44vh;}
 
 .thrice {
  text-align: center;
@@ -139,9 +139,9 @@ h4 {
 }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 360px) {
  
- #intro { height: 56vh;}
+ #intro { height: 80vh;}
 
  .modal-content .desc-left h2 {
    font-size: 1.5em;
@@ -161,7 +161,8 @@ h4 {
  }
 
  .modal-content .desc-right button {
-   margin-top: 0.6em;
+   margin-top: 3.6em;
+   bottom: 0;
    border-radius: 0;
    background-color: var(--orange);
    border: 1px solid var(--black);
@@ -271,6 +272,7 @@ section h1 {
 .banner-bod {
  position: absolute;
  display: flex;
+ background: hsl(0, 0%, 88%);
  mix-blend-mode: difference;
  width: 100%;
  height: 19rem;
@@ -297,7 +299,7 @@ section h1 {
 
 /*BREAK*/
 #break {
- background-image: url('https://i.pinimg.com/564x/e4/ae/d2/e4aed22f0b0d7617e8f28ad6505869fe.jpg');
+ background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/4654d118042547.650cfc712c109.jpg');
  height: 30.2vh;
  background-position: center;
  background-repeat: no-repeat;

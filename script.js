@@ -7,7 +7,6 @@ function respHeader() {
     x.className = "topnav";
   }
 }
-respHeader();
 
 // HIGHLIGHTER SIDEBAR
 const links = document.querySelectorAll("li");
@@ -54,6 +53,7 @@ sections.forEach((section) => {
 });
 
 // PARALLAX HEADER
+
 function handleParallax() {
   const scrollValue = window.scrollY;
   const introBod = document.querySelector(".banner-bod");
@@ -63,9 +63,7 @@ function handleParallax() {
 
 window.addEventListener("scroll", handleParallax);
 
-handleParallax();
-
-// RANDOM TEXT LOOP (deactivate dulu)
+// RANDOM TEXT LOOP
 function initRandomTextLoop() {
   const resolver = {
     resolve: function (options, callback) {
@@ -130,7 +128,7 @@ function initRandomTextLoop() {
     },
   };
 
-  const strings = ['web.', 'graphics.','products.','interiors.'];
+  const strings = ['web.', 'artworks.','interiors.','products.','graphics.'];
 
   let counter = 0;
 
@@ -159,7 +157,6 @@ function initRandomTextLoop() {
   resolver.resolve(options, callback);
 }
 
-// Initialize the random text loop
 initRandomTextLoop();
 
 //DROP DOWN ABOUT
