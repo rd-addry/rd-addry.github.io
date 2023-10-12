@@ -139,9 +139,11 @@ h4 {
 }
 }
 
-@media screen and (max-width: 468px) {
+@media screen and (max-width: 414px) {
  
- #intro { height: 80vh;}
+ #intro { height: 60vh;}
+
+ .modal-content {overflow: scroll;}
 
  .modal-content .desc-left h2 {
    font-size: 1.5em;
