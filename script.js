@@ -128,7 +128,7 @@ function initRandomTextLoop() {
     },
   };
 
-  const strings = ['web.', 'artworks.','interiors.','products.','graphics.'];
+  const strings = ['products.', 'UI/UX.','websites.','presentations.','interiors.','sculptures.','dashboards.','artworks.','illustrations.','graphics.'];
 
   let counter = 0;
 
